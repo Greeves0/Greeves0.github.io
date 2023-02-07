@@ -1,8 +1,9 @@
 body {
-    background-image: url('path/to/image.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url('fond_simple.jpg');
+    color: #ffffff;
   }
   ul {
     display: flex;
@@ -28,11 +29,8 @@ body {
   li a:hover {
     background-color: limegreen;
   }
-  
-  body {
-      color: #ffffff;
-  }
-  
-  body {
-    background-image: url('fond_simple.jpg');
+
+  p{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }

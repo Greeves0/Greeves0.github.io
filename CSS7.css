@@ -1,8 +1,9 @@
 body {
-    background-image: url('path/to/image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('fond_simple.jpg');
+  color: #ffffff;
   }
   ul {
     display: flex;
@@ -50,11 +51,3 @@ body {
           margin-top: 40px;
           font-size: 18px;
         }
-  
-  body {
-      color: #ffffff;
-  }
-  
-  body {
-    background-image: url('fond_simple.jpg');
-  }
