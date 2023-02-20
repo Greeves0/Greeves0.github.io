@@ -16,7 +16,12 @@ body {
     background-color: #333;
     border-radius: 15px;
   }
-  
+
+  caption-container{
+      margin: auto;
+      text-align: center;
+      font-family: sans-serif;
+  }
   
   li a {
     display: block;
@@ -35,9 +40,25 @@ body {
     margin-top: 20px;
     text-align: center;
   }
- 
 
-  table caption {
+td {
+  border: 1px solid black;
+}
+
+table, th, td {
+
+border: 2px solid skyblue
+
+}
+
+  table {
+  border-collapse: collapse;
+  margin-top: auto;
+  margin: auto;
   text-align: center;
   font-weight: bold;
+  caption{
+      font-size: 20px;
+      font-family: sans-serif;     
+  }
 }
