@@ -18,9 +18,9 @@ body {
   }
 
   caption-container{
-      margin: auto;
       text-align: center;
       font-family: sans-serif;
+      margin: auto;
   }
   
   li a {

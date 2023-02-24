@@ -41,16 +41,25 @@ body {
     line-height: 28px;
   }
   
-  .container {
-      width: 800px;
-      height: 600px;
-      position: fixed;
-  }
-  
-  .center-image {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 100%;
-  }
+.container {
+  margin-top: 250px;
+  position: relative;
+}
+
+ .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+ 
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: indigo;
+  font-size: 23px;
+}
