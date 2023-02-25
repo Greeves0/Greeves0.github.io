@@ -41,7 +41,7 @@ body {
     line-height: 28px;
   }
   .container {
-  margin-top: 250px;
+  margin-top: 300px;
   position: relative;
 }
 
@@ -59,6 +59,6 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  color: indigo;
+  color: white;
   font-size: 23px;
 }
