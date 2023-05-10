@@ -4,7 +4,8 @@ body {
     background-size: cover;
     background-image: url('fond_simple.jpg');
     color: #ffffff;
-  }
+    opacity: 1;
+}
   ul {
     display: flex;
     flex-direction: row;
