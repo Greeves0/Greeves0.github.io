@@ -10846,3 +10846,11 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.align_left{
+  text-align: left;
+}
+
+.align_right{
+  text-align: right;
+}
