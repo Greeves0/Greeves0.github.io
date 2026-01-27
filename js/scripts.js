@@ -12,7 +12,6 @@ function getRandomInt(max) {
 
 let liste=[audio1, audio2, audio3, audio4, audio5, audio6];
 
-//liste avec chemins audio instead cause this is dumb af
 button.addEventListener('click', () =>{
     let random = getRandomInt(6);
     let audio = liste[random];
